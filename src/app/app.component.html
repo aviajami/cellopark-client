@@ -4,8 +4,13 @@
 <div>
   <div class="container">
       <ol class="cheeses" *ngIf="cheeses.length > 0; else NoData">
+        <li class="list-item-title">
+          <span class="item-name-title">Cheese</span>
+          <span class="item-price-title">Price</span>
+        </li>
           <li class="list-item" *ngFor="let item of cheeses">
-            {{item.name}}    {{item.price | price}}
+            <span class="item-name">{{item.name}}</span>
+            <span class="item-price">{{item.price | price}}</span>
           </li>
       </ol>
       <ng-template #NoData>

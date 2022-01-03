@@ -39,3 +39,21 @@ input {
     margin-top: 10%;
     color: hsla(220, 60%, 1%, 0.281);
 }
+
+.item-name {
+    width: 95%;
+}
+
+.item-price {
+    width: 100%;
+}
+
+.item-name-title {
+    text-decoration: underline;
+    margin-right: 30px;
+}
+
+.item-price-title {
+    margin-left: 30px;
+    text-decoration: underline;
+}

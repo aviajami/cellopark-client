@@ -9,7 +9,7 @@ import { Cheese } from '../models/cheese.model';
 })
 export class CheesesService {
 
-  private readonly SERVER_URL = 'http://localhost:<port>/cheeses';
+  private readonly SERVER_URL = 'http://localhost:51827/api/Cheeses/prices';
   
   private cheesesBS = new BehaviorSubject<Array<Cheese>>([]);
   
